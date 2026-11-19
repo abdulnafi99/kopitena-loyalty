@@ -1,6 +1,6 @@
 /* Service worker — cache app shell supaya boleh dibuka luar talian.
    Naikkan VERSION setiap kali anda kemas kini index.html. */
-const VERSION = "kopitena-v2.0.0";
+const VERSION = "kopitena-v2.2.0";
 const SHELL = ["./", "./index.html", "./admin.html", "./manifest.webmanifest",
   "./icons/icon-192.png", "./icons/icon-512.png", "./icons/apple-touch-icon.png",
   "./icons/logo-circle.png", "./icons/kopitena-logo.png"];
