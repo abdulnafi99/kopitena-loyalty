@@ -1,4 +1,4 @@
 {
-  "rewrites": [{ "source": "/admin", "destination": "/admin.html" }],
+  "rewrites": [{ "source": "/admin", "destination": "/admin.html" }, { "source": "/panduan", "destination": "/panduan.html" }],
   "headers": [{ "source": "/sw.js", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] }]
 }

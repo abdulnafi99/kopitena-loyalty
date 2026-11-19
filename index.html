@@ -497,6 +497,7 @@ svg.i{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.8;stro
         <div class="tile span2 list rose">
           <button class="row" data-action="demoBuy"><svg class="i" data-ic="cup"></svg><div class="txt"><b>Simulasi pembelian</b><span>+1 cap &amp; +20 point (mod demo)</span></div><svg class="i" data-ic="chev" style="width:18px"></svg></button>
           <button class="row" data-action="reset"><svg class="i" data-ic="refresh"></svg><div class="txt"><b>Set semula data demo</b><span>Kembali ke data asal</span></div><svg class="i" data-ic="chev" style="width:18px"></svg></button>
+          <a class="row" href="panduan.html"><svg class="i" data-ic="sparkle"></svg><div class="txt"><b>Panduan &amp; cara install</b><span>Langkah demi langkah guna app</span></div><svg class="i" data-ic="chev" style="width:18px"></svg></a>
           <a class="row" href="admin.html" target="_blank" rel="noopener"><svg class="i" data-ic="chart"></svg><div class="txt"><b>Admin dashboard</b><span>Kaunter staf &amp; laporan (demo · PIN 1234)</span></div><svg class="i" data-ic="chev" style="width:18px"></svg></a>
         </div>
       </div>
@@ -921,7 +922,7 @@ $("#installBtn").addEventListener("click", async e=>{
     <p>${isIOS
       ? `Di Safari, tekan butang <b>Kongsi</b> ${icon("share","width:16px;height:16px;vertical-align:-3px")} kemudian pilih <b>“Add to Home Screen”</b>.`
       : `Buka menu pelayar (⋮) dan pilih <b>“Install app”</b> atau <b>“Add to Home screen”</b>.`}</p>
-    <button class="btn block" data-action="close">Faham</button>`);
+    <div class="btn-row"><a class="btn ghost" href="panduan.html#install" style="text-decoration:none">Panduan penuh</a><button class="btn" data-action="close">Faham</button></div>`);
 });
 if("serviceWorker" in navigator && location.protocol.startsWith("http")){
   addEventListener("load", ()=>navigator.serviceWorker.register("sw.js").catch(()=>{}));
