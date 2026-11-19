@@ -13,6 +13,9 @@ Ditulis sepenuhnya dalam **HTML, CSS dan JavaScript vanilla**, dalam satu fail `
 - **PWA**: boleh dipasang ke skrin utama (Android & iOS) dan dibuka luar talian melalui service worker.
 - **Mod demo**: butang "Simulasi pembelian" dan "Set semula data". Data disimpan dalam `localStorage`.
 
+## Panduan (`panduan.html`)
+Buka `/panduan` untuk panduan langkah demi langkah pelanggan, cara install PWA (iPhone, Android, komputer), panduan staf kaunter dan soalan lazim. Dipautkan dari skrin Profil dan tetingkap "Pasang".
+
 ## Admin dashboard (`admin.html`, demo)
 Buka `/admin` atau `admin.html` dan masukkan PIN demo **1234**.
 - **Ringkasan**: KPI (ahli, pembelian hari ini, point dikeluarkan, tebusan), carta pembelian 14 hari, ganjaran popular, aktiviti terkini dan ahli teratas.
